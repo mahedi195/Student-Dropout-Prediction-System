@@ -25,6 +25,7 @@
 
 
 ## Tech stack
+
 CSS, PYTHON, Django
 
 
@@ -32,14 +33,19 @@ CSS, PYTHON, Django
 
 ## Deployment
 deployment link
+
 https://student-dropout-prediction-system-4.onrender.com
 
+
 ## run project 
+
 path: (virtual) PS C:\Users\user\Desktop\student dropout\dropout\dropout> python train.py
+
 command: python train.py
 
 
 path:(virtual) PS C:\Users\user\Desktop\student dropout\dropout> python manage.py runserver
+
 command: python manage.py runserver
 
 
