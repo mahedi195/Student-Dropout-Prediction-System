@@ -7,6 +7,8 @@
 ![image alt](https://github.com/mahedi195/Student-Dropout-Prediction-System/blob/d4e327e06893ec95827590e3ae867f7d7d6396d9/prediction1.png)
 
 
+![image alt](https://github.com/mahedi195/Student-Dropout-Prediction-System/blob/d36517c66bead13b4e838ed24024157769fc7980/prediction2.png)
+
 
 
 
@@ -35,11 +37,9 @@
 
 
 
-
 ## Tech stack
 
 CSS, PYTHON, Django
-
 
 
 
