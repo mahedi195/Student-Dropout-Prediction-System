@@ -1,0 +1,261 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Prediction Page</title>
+
+    <style>
+        body {
+            background-image: url("{% static 'all_images/images/im1.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .title {
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        table {
+            font-size: 20px;
+        }
+
+        .label {
+            text-align: right;
+            padding-right: 20px;
+            width: 250px;
+            font-weight: bold;
+            font-size: 23px;
+            color: black;
+        }
+
+        input {
+            width: 300px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 17px;
+        }
+
+
+        input[type="radio"] {
+            width: auto;
+            padding: 0;
+            margin-right: 5px;
+        }
+
+
+
+        .sub {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            transform: translateX(130px);
+        }
+
+        .submitButton {
+            width: 190px;
+            background-color: rgb(21, 96, 126);
+            color: white;
+            border: none;
+            font-size: 22px;
+            padding: 13px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .submitButton:hover {
+            background-color: rgb(10, 70, 95);
+        }
+
+
+        .form-box {
+            transform: translateX(-130px);
+        }
+
+        .result {
+            transform: translateX(280px);
+        }
+
+        .developer {
+            text-align: right;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .linkk {
+            text-align: right;
+        }
+
+        .linkk a {
+            font-weight: bold;
+            color: black;
+            margin-right: 50px;
+            font-size: 20px;
+        }
+
+        .linkk a:hover {
+            color: rgb(218, 56, 7);
+
+        }
+
+        td {
+            padding-bottom: 10px;
+        }
+
+        .radio-box {
+            width: 300px;
+            background-color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <p class="title">Welcome to the Prediction Page</p>
+
+
+
+
+
+
+        <form action="result" method="get">
+            <div class="form-box">
+
+                <table>
+
+                    <tr>
+                        <td class="label">Study Time</td>
+                        <td><input type="number" name="n1" value="{{n1}}" required></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">Number of Failures</td>
+                        <td><input type="number" name="n2" value="{{n2}}" required></td>
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td class="label">Family Support</td>
+
+                        <td>
+                            <div class="radio-box">
+
+                                <label style="margin-right:20px;">
+                                    <input type="radio" name="n3" value="1" {% if n3 == '1' %}checked{% endif %}>
+                                    Yes
+                                </label>
+
+                                <label>
+                                    <input type="radio" name="n3" value="0" {% if n3 == '0' %}checked{% endif %}>
+                                    No
+                                </label>
+
+                            </div>
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td class="label">Wamts Higher Education</td>
+
+                        <td>
+                            <div class="radio-box">
+
+                                <label style="margin-right:20px;">
+                                    <input type="radio" name="n4" value="1" {% if n4 == '1' %}checked{% endif %}>
+                                    Yes
+                                </label>
+
+                                <label>
+                                    <input type="radio" name="n4" value="0" {% if n4 == '0' %}checked{% endif %}>
+                                    No
+                                </label>
+
+                            </div>
+                        </td>
+                    </tr>
+
+
+
+
+
+                    <tr>
+                        <td class="label">Number of Absences</td>
+                        <td><input type="number" step="any" name="n5" value="{{n5}}" required></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">Grade 2</td>
+                        <td><input type="number" step="any" name="n6" value="{{n6}}" required></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">Final Grade</td>
+                        <td><input type="number" name="n7" value="{{n7}}" required></td>
+                    </tr>
+
+                </table>
+
+                <div class="sub">
+
+                    <input type="submit" value="Predict" class="submitButton">
+                    <input type="button" value="Reset" class="submitButton"
+                        style="margin-left:10px;background-color:black; color: white;" onclick="
+                        document.querySelectorAll('input[type=number]').forEach(el => el.value='');
+                          document.querySelector('.result').innerHTML='<h1>Result:</h1>';">
+
+
+
+                </div>
+
+                <div class="result">
+                    <h1>Result: {{result2}}</h1>
+                </div>
+
+            </div>
+        </form>
+
+
+
+
+
+
+
+    </div>
+
+    <p class="developer">This Project is developed by Mahedi Hasan Emon</p>
+    <p class="linkk">
+        <a href="https://github.com/mahedi195" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/mahedi-hasan-emon-8745361b1" target="_blank">LinkedIn</a>
+    </p>
+
+
+
+</body>
+
+</html>

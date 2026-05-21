@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        body {
+            background-image: url("{% static 'all_images/images/im2.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .cen {
+            text-align: center;
+
+            height: 100vh;
+        }
+
+        .welcome {
+            color: rgb(223, 159, 40);
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+
+            background-color: rgb(47, 143, 182);
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            border: none;
+            border-radius: 35px;
+            padding: 15px;
+        }
+
+
+
+        .developer {
+            text-align: right;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 20px;
+            color: rgb(16, 138, 187);
+        }
+
+        .linkk {
+            text-align: right;
+            margin-right: 20px;
+        }
+
+        .linkk a {
+            font-weight: bold;
+            color: rgb(18, 112, 150);
+            margin-left: 20px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .linkk a:hover {
+            color: rgb(223, 159, 40);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="cen">
+        <p class="welcome">Welcome to Student Dropout Prediciton System!!</p>
+        <form action="predict">
+            <input type="submit" value="Let's get started">
+        </form>
+    </div>
+
+
+
+
+
+    <p class="developer">This Project is developed by Mahedi Hasan Emon</p>
+    <p class="linkk">
+        <a href="https://github.com/mahedi195" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/mahedi-hasan-emon-8745361b1" target="_blank">LinkedIn</a>
+    </p>
+
+
+
+
+
+</body>
+
+</html>
