@@ -4,7 +4,13 @@
 ![image alt](https://github.com/mahedi195/Student-Dropout-Prediction-System/blob/35d6f6ff28ba5565917a125023fee20cadd589e8/home.png)
 
 
+![image alt](https://github.com/mahedi195/Student-Dropout-Prediction-System/blob/d4e327e06893ec95827590e3ae867f7d7d6396d9/prediction1.png)
 
+
+
+
+
+## About project
 
 -kaggle student dropout dtaset used
 
