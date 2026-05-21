@@ -1,5 +1,11 @@
 ##          Student Dropout Prediction System
 
+## Screenshorts
+![image alt](https://github.com/mahedi195/Student-Dropout-Prediction-System/blob/35d6f6ff28ba5565917a125023fee20cadd589e8/home.png)
+
+
+
+
 -kaggle student dropout dtaset used
 
 -there are 649 rows × 34 columns in kaggle dataset
