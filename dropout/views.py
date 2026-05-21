@@ -44,6 +44,6 @@ def result(request):
         "n3": request.GET.get("n3", ""),
         "n4": request.GET.get("n4", ""),
         "n5": request.GET.get("n5", ""),
-        "n6": request.GET.get("n6", ""),   
+        "n6": request.GET.get("n6", ""),    
         "n7": request.GET.get("n7", ""),
     }) 
