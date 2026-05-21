@@ -1,4 +1,4 @@
-##                                Student Dropout Prediction System (Django + Machine Learning )
+##                                Student Dropout Prediction Web App (Django + Machine Learning )
 
 
 
