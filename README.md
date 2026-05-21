@@ -1,5 +1,14 @@
 ##                                                     Student Dropout Prediction System
 
+
+
+## Deployment
+deployment link
+
+https://student-dropout-prediction-system-4.onrender.com
+
+
+
 ## Screenshorts
 ![image alt](https://github.com/mahedi195/Student-Dropout-Prediction-System/blob/35d6f6ff28ba5565917a125023fee20cadd589e8/home.png)
 
@@ -41,12 +50,6 @@
 
 CSS, PYTHON, Django
 
-
-
-## Deployment
-deployment link
-
-https://student-dropout-prediction-system-4.onrender.com
 
 
 ## run project 
