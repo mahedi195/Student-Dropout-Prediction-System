@@ -20,12 +20,11 @@ https://student-dropout-prediction-system-4.onrender.com
 
 
 
-
 ## About project
 
--kaggle student dropout dtaset used
+kaggle student dropout dtaset used
 
--there are 649 rows × 34 columns in kaggle dataset
+there are 649 rows × 34 columns in kaggle dataset
 
 -columns of kaggle dtaset -> 'School'  'Gender' 'Age' 'Address' 'Family_Size' 'Parental_Status' 'Mother_Education' 'Father_Education' 'Mother_Job' 'Father_Job' 'Reason_for_Choosing_School' 'Guardian' 'Travel_Time' 'Study_Time' 'Number_of_Failures'  'School_Support'  'Family_Support' 'Extra_Paid_Class'
 'Extra_Curricular_Activities'  'Attended_Nursery'  'Wants_Higher_Education' 'Internet_Access'
