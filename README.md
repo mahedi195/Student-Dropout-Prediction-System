@@ -21,33 +21,40 @@ https://student-dropout-prediction-system-4.onrender.com
 
 
 ## About project
+About the Project
+The project uses the Kaggle Student Dropout dataset.
+The dataset contains 649 rows and 34 columns.
 
-kaggle student dropout dtaset used
-there are 649 rows × 34 columns in kaggle dataset
-
--columns of kaggle dtaset -> 'School'  'Gender' 'Age' 'Address' 'Family_Size' 'Parental_Status' 'Mother_Education' 'Father_Education' 'Mother_Job' 'Father_Job' 'Reason_for_Choosing_School' 'Guardian' 'Travel_Time' 'Study_Time' 'Number_of_Failures'  'School_Support'  'Family_Support' 'Extra_Paid_Class'
-'Extra_Curricular_Activities'  'Attended_Nursery'  'Wants_Higher_Education' 'Internet_Access'
-'In_Relationship' 'Family_Relationship' 'Free_Time' 'Going_Out' 'Weekend_Alcohol_Consumption' 'Weekday_Alcohol_Consumption' 'Health_Status' 'Number_of_Absences' 'Grade_1' 'Grade_2' 'Final_Grade' 'Dropped_Out'
-
-
--BUT, we take only 8 (eight) features for testing and training --->['Study_Time', 'Number_of_Failures', 'Family_Support', 'Wants_Higher_Education', 'Number_of_Absences', 'Grade_2', 'Final_Grade', 'Dropped_Out']
+##Dataset Columns
+School, Gender, Age, Address, Family_Size, Parental_Status, Mother_Education, Father_Education, Mother_Job, Father_Job, Reason_for_Choosing_School, Guardian, Travel_Time, Study_Time, Number_of_Failures, School_Support, Family_Support, Extra_Paid_Class, Extra_Curricular_Activities, Attended_Nursery, Wants_Higher_Education, Internet_Access, In_Relationship, Family_Relationship, Free_Time, Going_Out, Weekend_Alcohol_Consumption, Weekday_Alcohol_Consumption, Health_Status, Number_of_Absences, Grade_1, Grade_2, Final_Grade, Dropped_Out
 
 
--Tesing 30% data using 42 random state
+#Selected Features
+For training and testing, only 8 features were selected:
+[
+ 'Study_Time',
+ 'Number_of_Failures',
+ 'Family_Support',
+ 'Wants_Higher_Education',
+ 'Number_of_Absences',
+ 'Grade_2',
+ 'Final_Grade',
+ 'Dropped_Out'
+]
 
 
--Artificial Neural Network (ANN) Model is used with 32,26,8 nurons 
+##Train-Test Split
+70% training data
+30% testing data
+Random state = 42
+Model Used
+
+##Model Performance
+Accuracy: approximately 97%
 
 
--Accuracy ~97% 
-
-
-
-
-## Tech stack
-
-CSS, PYTHON, Django
-
+## Tools
+CSS, Python, Django
 
 
 ## run project 
